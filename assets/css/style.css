@@ -61,8 +61,7 @@ section {
 /* Hero Style Start */
 .hero {
   background-image: url("../images/hero-bg.jpg");
-  /* I had to adjust the height so it does not cut the image, the lesson says 600px but 800px works better */
-  height: 800px;
+  height: 600px;
   background-size: cover;
   background-position: center;
   position: relative;
@@ -77,8 +76,8 @@ section {
   border-width: 3px;
   border-color: #024e76;
   position: absolute;
-  bottom: 250px;
-  right: 200px;
+  bottom: 120px;
+  right: 140px;
 }
 .hero-form h3 {
   margin: 0;
