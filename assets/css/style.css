@@ -12,8 +12,6 @@ body {
 header {
   padding: 20px 35px;
   background-color: #39a6b2;
-  display: flow-root;
-  flex-wrap: wrap-reverse;
 }
 header h1 {
   font-weight: bold;
