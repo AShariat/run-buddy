@@ -122,17 +122,14 @@ section {
   font-size: 16px;
 }
 /* Hero Style End */
-.intro {
-  text-align: center;
-}
 .section-title {
   font-size: 55px;
   color: #024e76;
-  margin-bottom: 35px;
-  padding: 0 100px 20px 100px;
   border-bottom: 3px solid;
-  /* to cut the yellow line so it only covers under the text not from left to right of the page */
-  display: inline-block;
+  padding-bottom: 20px;
+  text-align: center;
+  margin: 0 auto 35px auto;
+  width: 50%;
 }
 .primary-border {
   border-color: #fce138;
@@ -144,9 +141,9 @@ section {
   font-size: 20px;
   /* instead of using display: inline-block we can use this tactic to center a block element with a width of less than 100% */
   margin: 0 auto;
+  text-align: center;
 }
 .steps {
-  text-align: center;
   background: #fce138;
 }
 .secondary-border {
@@ -171,9 +168,6 @@ section {
 .steps span {
   font-size: 38px;
 }
-.trainers {
-  text-align: center;
-}
 .trainer {
   width: 900px;
   margin: 0 auto 30px auto;
@@ -196,6 +190,9 @@ section {
 .text-right {
   text-align: right;
 }
+.flex-row {
+  display: flex;
+}
 .trainer-bio h3 {
   font-size: 32px;
   margin-bottom: 8px;
@@ -211,7 +208,6 @@ section {
 }
 /* Reach Out styles start */
 .contact {
-  text-align: center;
   background: #024e76;
 }
 .contact h2 {
